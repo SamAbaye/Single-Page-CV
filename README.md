@@ -23,5 +23,5 @@ The **Single Page CV** is a web-based application that allows users to create an
 
 ### Project Link:
  ```bash
-[https://roadmap.sh/projects/single-page-cv]
+https://roadmap.sh/projects/single-page-cv
 
