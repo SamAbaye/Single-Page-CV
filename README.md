@@ -21,6 +21,7 @@ The **Single Page CV** is a web-based application that allows users to create an
    ```bash
    git clone https://github.com/SamAbaye/Single-Page-CV/pull/new/master
 
-2. **Project Link** 
-   ```bash
-   https://roadmap.sh/projects/single-page-cv 
+## Project Link
+
+https://roadmap.sh/projects/single-page-cv
+
