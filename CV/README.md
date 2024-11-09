@@ -33,5 +33,5 @@ The **Single Page CV** is a web-based application that allows users to create an
 ### Notes:
 
 - **Project Page URL**: 
-    https://roadmap.sh/projects/single-page-cv
+    https://github.com/SamAbaye/Single-Page-CV/tree/master/CV
     

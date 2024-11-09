@@ -34,4 +34,4 @@ This is a simple static HTML website showcasing a portfolio with sections for pr
 This project is licensed under © 2025 All rights reserved.
 
 ## Links
-[Project Page](https://roadmap.sh/projects/basic-html-website)
+[Project Page](https://github.com/SamAbaye/Single-Page-CV/tree/master/Basic%20HTML%20Website)
