@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.073);
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+.main {
+ background-color: rgb(255, 255, 255);
+ float: left;
+ width: 60%;
+ margin-left: 20%;
+ margin-right: 20%;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ padding: 10px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.content {
+    display: flex;
+    flex-direction: column; /* Horizontal layout */
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+.line {
+    border: #000000; 
+    background-color: rgb(255, 255, 255); 
+    width: 120%;
+    margin-left: -8%;
+    border-width: 1px;
+    border-style: solid; 
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.line1 {
+    border: #000000; 
+    background-color: rgb(255, 255, 255); 
+    width: 120%;
+    margin-left: -4%;
+    margin-bottom: -24%;
+    border-width: 1px;
+    border-style: solid; 
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.projects {
+    background-color: white;
+    width: 30%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.project-list {
+    list-style-type: none;
+    padding: 10px;
+}
+.work-experience {
+    background-color: white;
+    padding: 10px;
+    width: 30%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td {
+    border: 1px solid #000000;
+    width: 50%;
+}
+.education {
+    background-color: white;
+    padding: 10px;
+    width: 30%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Make Reviews Section Responsive */
+.reviews {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    justify-content: center; /* Centers items in the flex container */
+    gap: 20px; /* Adds space between review boxes */
+    margin-top: 20px;
+}
+
+/* Style each review card */
+.review-card {
+    padding: 10px;
+    border: 3px solid #000000;
+    background-color: white;
+    border-radius: 15%;
+    width: 25%;
+    max-width: 300px;
+    text-align: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .content, .main, .nav {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    /* Adjust line width on smaller screens */
+    .line {
+        width: 140%;
+        margin-left: -16%;
+        background-color: rgb(197, 195, 195);
+    }
+
+    .line1 {
+        background-color: rgb(197, 195, 195);
+        margin-left: -7%;
+    }
+
+    /* Make reviews full-width on small screens */
+    .review-card {
+        width: 90%;
+        max-width: none;
+    }
+}
